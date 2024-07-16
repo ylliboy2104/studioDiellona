@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Diellona | Time Schedule</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="main.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            Beauty Salon <br>
+            Studio Diellona
+        </h1>
+        <nav>
+            <ul>
+                <li class="nav-item">
+                    <a href="/index.html" class="nav-link" id="nav_a">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/time_schedule/index.html"  class="nav-link" id="nav_a">Time Schedule</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/about_us/index.html" class="nav-link" id="nav_a">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/appointment/index.html" class="nav-link-active" id="nav_a">Book an Appointment</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/contact/index.html" class="nav-link" id="nav_a">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Body Starts here now  -->
+
+<div class="container">
+    <div class="container-middle">
+        <h2>Book an Appointment</h2>
+        <div class="container-middle-form">
+            <br>
+            <form action="https://sheetdb.io/api/v1/aspw6den0yb9e" method="post" id="sheetdb-form">
+                <label for="name">Enter your full name</label><br>
+                <input type="text" name="data[Name]"  required id="input"> <br>
+                <br>
+                <label for="email">Enter your email</label><br>
+                <input type="mail" name="data[Mail]"  required id="input"> <br>
+                <br>
+                <label for="date">Date & Time </label> <br>
+                <input type="text" name="data[dateTime]" placeholder="17.06. 16:30" required id="input"> <br>
+                <br>
+                <label for="treatment">Nails, Make Up, SkinCare or Hairs</label><br>
+                <input type="text" name="data[Treatment]"  required id="input"> <br>
+                <br>
+                <br>
+                <button type="submit">
+                    <span class="btn_text">Book Now</span>
+                    <img src="/assets/icons/arrow-right.svg" alt="" class="arrow_right"> 
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+    <!-- Body ends here -->
+
+    <div class="social_media_div">
+        <a href="https://www.instagram.com/studiodiellona/" class="insta_link_btn" id="insta_link">
+            Visit our Instagram Page
+            <img src="/assets/icons/instagram.svg" alt="" class="insta_svg">
+        </a>
+        <a href="https://www.facebook.com/Diellonakuci/" class="fb_link_btn" id="fb_link">
+            Visit our Facebook Page
+            <img src="/assets/icons/facebook.svg" alt="" class="fb_svg">
+        </a>
+    </div>
+    
+    <footer>
+        <p>Copyright &copy; 2021 Diellona Kuçi.</p>
+        <p>All Rights Reserved.</p>
+        <p>Designed by Bytyqi Yll</p>
+    </footer>
+
+</body>
+</html>
